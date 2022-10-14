@@ -1,27 +1,3 @@
-.nav-container{
-    background-color: black;
-}
-nav{
-    background-color: black;
-    width: 300px;
-    padding: 10px;
-    margin: auto;
-}
-li{
-    list-style-type: none;
-    display: inline;
-    padding: 0 15px;
-    font-size: 18px;
-}
-li a{
-    text-decoration: none;
-    color: white;
-    cursor: default;
-}
-li a:hover{
-    color: red;
-    transition: all 0.5s;
-}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +22,17 @@ li a:hover{
 }
 img{
     width: 350px;
+}
+.img-flag-box{
+    display: flex;
+    justify-content: center;
+}
+.img-flag{
+    padding: 5px 150px;
+    width: 40px;
+}
+.grid-number{
+    font-size: 20px;
 }
 .constructors img{
     width: 450px;
