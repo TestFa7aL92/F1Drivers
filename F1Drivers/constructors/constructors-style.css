@@ -1,0 +1,81 @@
+.nav-container{
+    background-color: black;
+}
+nav{
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 15px;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+li a:hover{
+    color: red;
+    transition: all 0.5s;
+}
+.constructor-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.stats-list{
+    margin-right: 15px;
+    margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    justify-content: center;
+}
+.drivers{
+    margin-top: 40px;
+    height: max-content;
+    width: max-content;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.driver{
+    margin: 5px;
+    padding: 10px 5px 62px 5px;
+    justify-content: center;
+    color: wheat;
+    text-align: center;
+}
+.img-team{
+    width: 150px;
+}
+.img-driver{
+    width: 350px;
+    margin-bottom: 10px;
+}
+.driver:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+.driver-number{
+    font-size: 30px;
+}
+table{
+    color: wheat;
+    margin: auto;
+    padding-top: 100px;
+}
+td{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+td:nth-child(even){
+    color: white;
+}
